@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int numero = 0;
+while (numero < 50) 
+{
+    numero++;
+    Console.WriteLine(numero);
+}
+Console.ReadKey();
+
